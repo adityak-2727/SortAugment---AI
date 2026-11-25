@@ -1,0 +1,3 @@
+set,n_images,accuracy,macro_F1
+TrashNet test (clean),379,0.9261,0.9162
+TACO test (messy real world),2250,0.1858,0.1386

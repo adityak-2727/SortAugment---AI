@@ -1,0 +1,30 @@
+# Python virtual environment & caches
+backend/venv/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+**/.pytest_cache/
+
+# Node / Frontend dependencies & build
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Runtime job data
+backend/data/
+
+# Assets: only keep best_model.pt and tables/
+assets/*
+!assets/best_model.pt
+!assets/tables/
+
+# Excluded project docs & reports
+CONTRACT.md
+MANUAL_STEPS.md
+*.pdf
+
+# Logs & OS files
+*.log
+.DS_Store
+Thumbs.db
